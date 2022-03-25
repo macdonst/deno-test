@@ -17,6 +17,7 @@ let body = `
 
     <p class="center-text">
       Your <a href="https://begin.com" class="link" target="_blank">Begin</a> app is ready to go!
+      ${JSON.stringify(Deno.version)}
     </p>
 
   </body>
